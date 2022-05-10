@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "colorlist-imasparql",
+    platforms: [.macOS(.v10_15)],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/banjun/SwiftSparql", from: "0.11.0"),
